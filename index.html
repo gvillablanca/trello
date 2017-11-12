@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>TRELLO</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css">
+</head>
+<body>
+	<header id="header" class="">
+			<ul>
+				<li class="izquierda"><button type="submit">
+					<i class="fa fa-trello" aria-hidden="true"></i>
+					Tableros
+					</button>
+				</li>
+
+				<li class="izquierda">
+						<input placeholder="Buscar" type="text" name="javatext">		
+						<span class="lupa">
+							<i class="fa fa-search" aria-hidden="true"></i>
+						</span>						
+				</li>
+
+				<li><img src="assets/img/logo.png" alt="" class="logo"></li>
+
+				<li class="derecha"><img src="assets/img/perfil.png" alt="" class="perfil"></li>
+
+				<li class="derecha">
+					<button type="submit">
+						<i class="fa fa-bell" aria-hidden="true"></i>
+					</button>
+				</li>
+
+				<li class="derecha">
+					<button type="submit">
+						<i class="fa fa-info-circle" aria-hidden="true"></i>
+					</button>
+				</li>
+
+				<li class="derecha">
+					<button type="submit">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+					</button>
+				</li>
+				
+
+			</ul>	
+	</header>
+
+	<div id="container">
+		<p id="btn" onclick="trello()">añadir una lista...</p>
+		
+	</div>
+
+	<div id="contiene">
+		<div id="tarjeta">
+			
+		</div>
+	</div>
+
+	<script type="text/javascript" src="assets/js/app.js"></script>
+</body>
+</html>

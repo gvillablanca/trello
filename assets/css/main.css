@@ -1,0 +1,100 @@
+li{
+	Display: inline-block;
+	margin-top: 10px;
+}
+
+body{
+	background-color: aqua;
+	margin:0px;
+	padding: 0px;
+
+}
+
+ul{
+	margin:0px;
+	padding: 0px;
+}
+
+.izquierda{
+	float:left;
+}
+
+.derecha{
+	float:right;
+}
+
+header{
+	height: 60px;
+	margin:0px;
+	padding: 0px;
+	background-color: darkturquoise;
+
+}
+
+.perfil{
+	width: 40px;
+	border-radius: 18px;
+}
+
+.logo{
+	border: 2px solid black;
+	margin-left: 300px;
+	background-color: black;
+}
+
+#container{
+
+}
+
+#contiene{
+
+	display: block;
+
+}
+
+#btn{
+	display: inline-block;
+	width: 180px;
+	height: 30px;
+	margin-right:2px;
+}
+
+/*textarea*/
+#cuadro{
+	display: block;
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: skyblue;
+}
+
+/*parrafo click*/
+#parrafo{
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: dodgerblue;
+	border-radius: 5px; 
+	display: inline-block;
+}
+
+#parrafo2{
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: dodgerblue;
+	border-radius: 5px; 
+	display: inline-block;
+}
+
+#añadirTarjeta{
+	display: block;
+}
+
+.botonGuardar{
+	border-radius: 5px;
+	border:1px solid transparent;
+}
+
+button{
+	border-radius: 5px;
+	border: 1px solid grey;
+	background-color: darkturquoise;
+}
