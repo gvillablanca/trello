@@ -57,6 +57,7 @@ header{
 	width: 180px;
 	height: 30px;
 	margin-right:2px;
+	border: 1px solid darkturquoise;
 }
 
 /*textarea*/
